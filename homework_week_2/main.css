@@ -3,19 +3,49 @@ body {
 }
 nav {
     background-color: lightcyan;
-    padding: 20px 10px;
+    width: 100%;
+
 }
 
+
 nav ul {
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
 }
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover {
+    background: #e91e63;
+    
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;  
+
+}
+.toggle
+{
+    width: 100%;
+    padding: 10px 20px;
+    background: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+
+}
+@media (max-wideth: 768px;)
 
 nav li{
     border-bottom: 1px solid #212529;
     padding: 10px 0px;
     margin: 10px;
+
 
 }
 
@@ -39,7 +69,7 @@ nav ul a {
     }
 
     nav ul {
-        text-align: center;
+        text-align: left;
     }
 
     nav {
