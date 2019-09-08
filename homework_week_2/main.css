@@ -6,6 +6,9 @@ body {
     padding: 20px 10px;
     
 }
+.nav > li > a:hover {
+    background-color: powderblue;
+}
 
 nav ul {
     list-style: none;
