@@ -1,0 +1,97 @@
+/* --------------- HEADER ----------------- */
+@import url(colors.css);
+
+
+body {
+    margin: 20px
+}
+.nav {
+    background-color: peachpuff;
+    padding: 20px 10px;
+    
+}
+.nav > li > a:hover {
+    background-color: powderblue;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: none;
+}
+
+nav li{
+    padding: 10px 0px;
+    margin: 10px;
+
+}
+
+nav li:first-child {
+    margin-top:0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #212529;
+    text-transform: uppercase;
+}
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+.nav-check:checked ~ .nav {
+    display: block;
+}
+
+.nav-label {
+    display: inline-block;
+    width: 40px;
+}
+.nav-label img {
+    display: block;
+    width: 100%;
+}
+
+
+.nav-check:checked ~ .nav-label {
+    background-color: powderblue; 
+}
+
+/* --------------- MAIN ----------------- */
+
+.floater-section {
+    float: left; 
+    min-height: 300px;
+    width: 100%;
+
+
+}
+
+.container::after {
+    clear:both;
+    content: "";
+    display: block;
+
+}
+
+@media(min-width: 540px){
+    nav ul li {
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 0px;
+        margin: 1px 20px;
+        
+        
+        
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+
+    nav {
+        padding: 0px 10px;
+    }
+} 
+
