@@ -1,0 +1,70 @@
+@import "colors.css";
+@import url(layout.css);
+
+
+/* NAV BAR */
+body {
+    margin: 0px
+}
+header {
+    background-color:rgb(243, 232, 223);
+}
+header input#toggler {
+    display: none;
+}
+ header label img {
+     width: 40px;
+     height: auto;
+ }
+nav {
+    padding: 20px 10px;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input#toggler:checked + nav {
+    display:block;
+}
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+nav li{
+    border-bottom: 1px solid #212529;
+    padding: 10px 0px;
+    margin: 10px;
+
+}
+
+nav li:first-child {
+    margin-top:0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #212529;
+    text-transform: uppercase;
+    color: rgb(133, 133, 216);
+}
+
+/*MAIN*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(154, 154, 212);
+    padding: 15px;
+    height: 2px;
+}
+h2 {
+    margin-left: 15px;
+    color: rgb(193, 218, 193);
+
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(243, 232, 223);
+
+}
+p {
+    padding: 15px;
+}

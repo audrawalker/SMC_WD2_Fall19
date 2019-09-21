@@ -67,10 +67,11 @@ nav ul a {
 
 
 }
+img {
+    max-width: 100%;
+}
 .bug img { 
-    width: 250px;
-    height: 250px;
-    padding: 25px;
+    width: 100%;
 }
 
 .container::after {
@@ -99,4 +100,7 @@ nav ul a {
         padding: 0px 10px;
     }
 } 
-
+.bug img { 
+    width: 200px;
+    height: 200px;
+    padding: 50px;
