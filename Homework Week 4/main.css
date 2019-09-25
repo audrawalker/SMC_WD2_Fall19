@@ -39,6 +39,13 @@ nav ul a {
     text-transform: uppercase;
     color: rgb(119, 150, 119);
 }
+a {
+    color:rgb(193, 218, 193);
+
+}
+a:link {
+    color:rgb(193, 218, 193);
+}
 
 /*MAIN*/
 h1 {
