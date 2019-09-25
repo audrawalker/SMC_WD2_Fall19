@@ -3,17 +3,28 @@
 
 
 /* NAV BAR */
+header input#toggler {
+    display: none;
+} 
+header label img {
+     width: 40px;
+     height: auto;
+ }
+nav {
+    padding: 0px 10px;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#toggler:checked + nav {
+    display:block;
+    
+}
 body {
     margin: 0px
 }
 header {
     background-color:rgb(227, 227, 241);
-}
-
-nav {
-    padding: 20px 10px;
-    display: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -46,6 +57,18 @@ a {
 a:link {
     color:rgb(119, 150, 119);
 }
+nav ul li {
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 0px;
+    margin: 10px 20px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+
 
 /*MAIN*/
 h1 {
@@ -82,49 +105,12 @@ h4 {
 
 
 }
-@media(min-width: 540px){
-    nav ul li {
-        display: inline-block;
-        padding-bottom: 5px;
-        border-bottom: 0px;
-        margin: 10px 20px;
-    }
+ @media (min-width: 540px){
+     header label[for=toggler]{
+         display: none;
+     }
 
-    nav ul {
-        text-align: center;
-    }
-
-    nav {
-        padding: 0px 10px;
-    }
-    /* MAIN */
-    .width-md-50 {
-        width: 50%;
-    }
-    .width-md-33 {
-        width: 33%
-    }
-}
-header input#toggler {
-    display: none;
-}
- header label img {
-     width: 40px;
-     height: auto;
+     nav {
+         display: block;
+     }
  }
- input#toggler:checked + nav {
-    display:block;
-}
-@media (min-width: 800px){
-    .width-lg-25 {
-        width:35%
-    }
-
-    .width-lg-33 {
-        width: 33%;
-    }
-    
-    .width-lg-100 {
-        width:100%;
-    }
-}
