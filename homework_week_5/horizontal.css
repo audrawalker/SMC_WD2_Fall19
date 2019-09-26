@@ -1,0 +1,29 @@
+.center {
+  margin: 0 auto;
+  width: 240px;
+  background: rgb(132, 132, 192);
+  padding: 20px;
+  color: white;
+}
+
+
+ 
+ 
+ /*
+ header, nav {
+    text-align: left;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    background: rgb(106, 106, 180);
+    border-radius: 0px;
+    color: white;
+    padding: 5px 8px;
+  }
+  
+  .center-children {
+    text-align: center;
+  }
