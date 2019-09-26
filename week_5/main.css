@@ -1,4 +1,49 @@
 @import "colors.css";
 @import url(layout.css);
-@import url(navbar.css)
+@import url(navbar.css);
 
+.content-table {
+    display: table;
+    height: 120px;
+}
+.content-table p {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*block element with known height*/
+.pos-realtive {
+    position: relative;
+}
+
+/*
+.v-centered-block {
+    height:100px;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+*/
+.v-centered-block {
+    height:140px;
+    transform: translateY(-50px);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+/* block element vertically and horizontally centered - known height/width  */
+
+.v-h-centered-block {
+    height:140px;
+    width:140px;
+
+    position: absolute;
+    top:50%;
+    left:50;
+
+    margin-top: -70px;
+    margin-left: -70px;
+
+
+}
