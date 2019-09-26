@@ -1,0 +1,39 @@
+body {
+    background:rgb(228, 125, 87);
+    font-size: 80%;
+  }
+  
+  table {
+    background: rgb(106, 106, 180);
+    width: 240px;
+    border-collapse: separate;
+    margin: 20px;
+    height: 250px;
+  }
+  
+  table td {
+    background: rgb(228, 125, 87);
+    color: rgb(106, 106, 180);
+    padding: 20px;
+    border: 10px solid rgb(106, 106, 180);
+    /* default is vertical-align: middle; */
+  }
+  
+  .center-table {
+    display: table;
+    height: 250px;
+    background: rgb(106, 106, 180);
+    width: 240px;
+    margin: 20px;
+  }
+  .center-table p {
+    display: table-cell;
+    margin: 0;
+    background: rgb(228, 125, 87);
+    color: white;
+    padding: 20px;
+    border: 10px solid rgb(106, 106, 180);
+    vertical-align: middle;
+  }
+  
+  

@@ -1,76 +1,16 @@
 @import "colors.css";
 @import url(layout.css);
+@import url(navbar.css);
+@import url(table.css);
 
-
-/* NAV BAR */
-header input#toggler {
-    display: none;
-} 
-header label img {
-     width: 40px;
-     height: auto;
- }
-nav {
-    padding: 0px 10px;
-    display: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-input#toggler:checked + nav {
-    display:block;
-    
-}
-body {
-    margin: 0px
-}
-header {
-    background-color:rgb(227, 227, 241);
-}
-
-nav ul {
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
-}
-
-nav li{
-    border-bottom: 1px solid #212529;
-    padding: 10px 0px;
-    margin: 10px;
-
-}
-
-nav li:first-child {
-    margin-top:0px;
-}
-
-nav ul a {
-    text-decoration: none;
-    color: #212529;
-    text-transform: uppercase;
-    color: rgb(119, 150, 119);
-}
-a {
-    color:rgb(119, 150, 119);
-
-}
-a:link {
-    color:rgb(119, 150, 119);
-}
-nav ul li {
-    display: inline-block;
-    padding-bottom: 5px;
-    border-bottom: 0px;
-    margin: 10px 20px;
-}
-
-nav ul {
-    text-align: center;
-}
 
 
 
 /*MAIN*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(154, 154, 212);
@@ -87,8 +27,16 @@ h3 {
     color:rgb(243, 232, 223);
 
 }
-p {
-    padding: 15px;
+h6 {
+    font-family: Helvetica;
+    color: rgb(106, 106, 180);
+    text-align: left;
+    font-size: 25px;
+    margin-top: 00px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+
 }
 
 img {
@@ -105,12 +53,4 @@ h4 {
 
 
 }
- @media (min-width: 540px){
-     header label[for=toggler]{
-         display: none;
-     }
-
-     nav {
-         display: block;
-     }
- }
+ 
