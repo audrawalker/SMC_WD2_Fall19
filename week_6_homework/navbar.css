@@ -167,5 +167,8 @@ h4 {
         font-size: 25px;
         letter-spacing: 3px;
     }
+    h2 {
+        display: none;
+    }
     
  }

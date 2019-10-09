@@ -18,19 +18,17 @@
         width: 820px;
         margin: auto;
     }
-    .floater-section {
-        min-height: 306px;
-    }
+    
     .width-md-25 {
         width:25%;
 
     }
     .width-md-33 {
-        width:33%;
+        width:100%;
 
     }
     .width-md-50 {
-        width:50%;
+        width:97%;
 
     }
     .width-md-66 {
@@ -69,9 +67,7 @@ img {
         width: 860px;
         margin: auto;
     }
-    .floater-section {
-        min-height: 405px;
-    }
+   
     .width-lg-25 {
         width:25%;
 
@@ -81,7 +77,7 @@ img {
 
     }
     .width-lg-50 {
-        width:50%;
+        width:97%;
 
     }
     .width-lg-66 {
@@ -89,7 +85,7 @@ img {
 
     }
     .width-lg-75 {
-        width:75%;
+        width:500%;
 
     }
     .width-lg-100 {

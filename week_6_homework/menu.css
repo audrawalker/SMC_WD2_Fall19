@@ -1,0 +1,14 @@
+.menu {
+    padding: 30px;
+}
+@media (min-width:800px) {
+    .menu {
+        position: relative;
+        align-items: center;
+        width: 700px;
+        padding-left: 300px;
+    }
+
+
+}
+  
