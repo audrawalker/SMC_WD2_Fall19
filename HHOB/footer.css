@@ -1,8 +1,8 @@
+
 .footer {
-    height: 50px;
-    left: 0;
-    bottom: 0;
+    padding: 25px 15px;
     background-color: antiquewhite;
+    text-align: center;
  }
  h4 {
     font-family: 'Montserrat', sans-serif;
@@ -14,12 +14,14 @@
 
  .facebook {
     height: 17px;
-    width: 17px;
+
     
  }
  .instagram {
     height: 17px;
-    width: 17px;
-    margin-left:440px;
-    margin-top: 4px;
+ }
+ @media (min-width:800px) {
+ .footer h4 br {
+   display:none;
+}
  }

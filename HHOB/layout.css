@@ -51,6 +51,7 @@ img {
 }
 
 
+
 .content {
     padding-top: 10px;
     padding-left: 15px;
@@ -66,6 +67,7 @@ img {
     .container {
         width: 860px;
         margin: auto;
+        text-align: center;
     }
    
     .width-lg-25 {
