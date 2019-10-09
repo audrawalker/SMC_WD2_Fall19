@@ -23,10 +23,11 @@ h2 {
 
 
 p {
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .5px;
     color: #e29f50;
+    text-align: justify;
 
 }
 
