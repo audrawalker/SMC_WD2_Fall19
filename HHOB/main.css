@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url(navbar.css);
+@import url(layout.css);
+@import url(colors.css);
+@import url(footer.css);
+@import url(about.css);
+@import url(menu.css);
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    color: cornsilk;
+    background-color: rgba(125, 122, 122, 0.4);
+    width: 80%;
+    padding: 34px;
+    margin-left: 30px;
+    box-shadow: 1px 1px 11px rgb(109, 106, 106, 0.7);
+}
+
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .5px;
+    color: #e29f50;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
