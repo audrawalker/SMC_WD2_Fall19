@@ -19,7 +19,7 @@ input#toggler:checked + nav {
     
 }
 header {
-    background-color: rgb(247, 237, 224);
+    background-color: #DB9E36;
 }
 nav ul {
     list-style: none;
@@ -27,7 +27,7 @@ nav ul {
     margin: 0px;
 }
 nav li {
-    border-bottom: 1px solid #504a44;
+    border-bottom: 1px solid #105B63;
     padding: 10px 0px;
     margin: 10px;
 
@@ -35,11 +35,14 @@ nav li {
 nav li:first-child {
     margin-top:0px;
 }
+nav ul a:hover {
+    color:cornsilk;
+}
 nav ul a {
     text-decoration: none;
-    color: #212529;
+    color: #105B63;
     text-transform: uppercase;
-    color: rgb(49, 45, 38);
+    color: #105B63;
     line-height: 40px;
 }
 
@@ -178,7 +181,10 @@ h4 {
     }
 
     h1 a {
-        color: rgb(240, 148, 86);
+        color: #FFFAD5;
+    }
+    h1 a:hover {
+        color: #105B63;
     }
 
  }

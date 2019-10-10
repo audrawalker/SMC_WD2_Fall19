@@ -1,24 +1,27 @@
 
 .footer {
     padding: 25px 15px;
-    background-color: antiquewhite;
+    background-color: #DB9E36;
     text-align: center;
  }
  h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     text-align: center;
-    color: rgb(228, 169, 68);
+    color: black;
+    filter: opacity(.5);
     margin-top:5px;
  }
 
  .facebook {
     height: 17px;
+    filter: opacity(50%)
 
     
  }
  .instagram {
     height: 17px;
+    filter: opacity(50%);
  }
  @media (min-width:800px) {
  .footer h4 br {

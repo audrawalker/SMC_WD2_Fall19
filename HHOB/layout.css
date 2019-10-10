@@ -64,7 +64,15 @@ img {
 }
 /* LARGE SIZE SCREEN floater grid*/
 @media (min-width:800px) {
+    .content {
+        padding-top: 50px;
+        padding-left: 15px;
+        position: relative;
+        margin-bottom: 10px;
+        padding-right: 15px;
+    }
     .container {
+        padding:30px;
         width: 860px;
         margin: auto;
         text-align: center;

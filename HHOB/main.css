@@ -6,9 +6,6 @@
 @import url(about.css);
 @import url(menu.css);
 
-h1 a {
-    color:orange;
-}
 
 h2 {
     text-align: center;
@@ -30,7 +27,7 @@ p {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .5px;
-    color: #e29f50;
+    color: #105B63;
     text-align: justify;
 
 }
@@ -44,12 +41,12 @@ h3 {
     font-size: 141px;
 }
 a  {
-    color: rgb(243, 232, 223);
+    color: cornsilk;
     text-decoration: none;
     
 }
 a:hover {
-    color: orange;
+    color: #DB9E36;
 }
 
 h8 {
@@ -68,4 +65,32 @@ h8 {
     top: 0px;
     font-size: 110px;
     margin-top: 0px;
+}
+@media (min-width:800px) {
+    h3 {
+        text-shadow: 1px 0px 6px #1b0f06;
+        position: absolute;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        top: 0px;
+        font-size: 241px;
+        left: 40px;
+    }
+    h8 {
+    
+        text-shadow: 1px 0px 6px #1b0f06;
+        position: absolute;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        top: 0px;
+        font-size: 190px;
+        margin-top: 40px;
+    }
 }
