@@ -6,6 +6,10 @@
 @import url(about.css);
 @import url(menu.css);
 
+h1 a {
+    color:orange;
+}
+
 h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -32,11 +36,26 @@ p {
 }
 
 h3 {
+    text-shadow: 1px 0px 6px #1b0f06;
+    position: absolute;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    top: 0px;
+    font-size: 141px;
+}
+a  {
+    color: rgb(243, 232, 223);
+    text-decoration: none;
+    
+}
+a:hover {
+    color: orange;
 }
 
 h8 {
+    
+    text-shadow: 1px 0px 6px #1b0f06;
+    position: absolute;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     display: block;
@@ -46,4 +65,7 @@ h8 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    top: 0px;
+    font-size: 110px;
+    margin-top: 0px;
 }
