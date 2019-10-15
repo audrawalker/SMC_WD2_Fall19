@@ -13,12 +13,12 @@ h2 {
     font-size: 21px;
     position: absolute;
     top: 0px;
-    left: -34px;
+    left: -27px;
     color: cornsilk;
     background-color: rgba(125, 122, 122, 0.4);
-    width: 80%;
+    width: 70%;
     padding: 30px;
-    margin-left: 48px;
+    margin-left: 50px;
     box-shadow: 1px 1px 11px rgb(109, 106, 106, 0.7);
 }
 
@@ -38,7 +38,7 @@ h3 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     top: 0px;
-    font-size: 141px;
+    font-size: 101px;
 }
 a  {
     color: cornsilk;
@@ -63,7 +63,7 @@ h8 {
     margin-inline-end: 0px;
     font-weight: bold;
     top: 0px;
-    font-size: 110px;
+    font-size: 85px;
     margin-top: 0px;
 }
 @media (min-width:800px) {

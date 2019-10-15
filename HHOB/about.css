@@ -1,3 +1,7 @@
+
+main {
+    text-align: center;
+}
 .storefront {
     padding-top:15px;
     padding-bottom: 20px;
@@ -5,29 +9,25 @@
 h5 {
     margin-top:15px;
     line-height: 22px;
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .5px;
-    color: #e29f50;
+    color: #105B63;
     font-size: 15px;
 
 }
 h6 {
-    text-align: end;
-    letter-spacing: 1px;
-    width: 485px;
+    letter-spacing: 1px; 
     height: 60px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     margin-top: 17px;
-    text-align: center;
-    color: black;
+    color: #db9e36;
     padding-top: 20px;
-    padding-bottom: -20px;
 }
 
 h7 {
-    margin-left:190px;
+   
     text-shadow: 0px 0px 0.5px #130f0f;
     color: #DB9E36;
     font-family: 'Montserrat', sans-serif;
@@ -40,6 +40,7 @@ h7 {
 
 @media (min-width:800px) {
 
+
 .storefront {
     margin-left: 120px;
     padding-top: 10px;
@@ -49,7 +50,7 @@ h7 {
     padding: 25px;
 }
 h7 {
-    margin-left: 590px;
+    padding:75px;
     text-shadow: 0px 0px 0.5px #130f0f;
     color: #DB9E36;
     font-family: 'Montserrat', sans-serif;
@@ -67,17 +68,12 @@ h5 {
         padding-left: 150px;
 }
 h6 {
-    padding-left: 400px;
-    text-align: end;
-    letter-spacing: 1px;
-    height: 60px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     margin-top: 17px;
     text-align: center;
     color: #db9e36;
     padding-top: 20px;
-    padding-bottom: -20px;
 }
 .instagram {
     height: 17px;
