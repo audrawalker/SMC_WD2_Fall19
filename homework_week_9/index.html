@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework week 9</title>
+</head>
+<body>
+    <header>
+        <nav id="navBar">
+                <button onclick="myFunctionfont(event)">Change Font</button>
+                <button onclick="myFunctionsize(event)">Change Size</button>
+                <button onclick="myFunctionstyle(event)">Change Style</button>
+
+        </nav>
+
+    </header>
+
+    <main>
+    
+        <div id="contentMain">
+            <h1>I hope I did this right!</h1>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        var fontType = ["Arial", "Verdana", "Courier","Times New Roman","Roboto","Georgia","Bookman"];
+        var fontSize = ["12pt","46pt","70pt","2pt"];
+        var fontStyle = ["italic","normal","oblique"];
+
+        function myFunctionfont(e) {
+        document.getElementById("contentMain").style.fontFamily = fontType[Math.floor(Math.random() * fontType.length)];
+        }
+        function myFunctionsize(e) {
+        document.getElementById("contentMain").style.fontSize = fontSize[Math.floor(Math.random() * fontSize.length)];
+        }
+        function myFunctionstyle(e) {
+        document.getElementById("contentMain").style.fontStyle = fontStyle[Math.floor(Math.random() * fontStyle.length)];
+        }
+        
+
+    </script>
+</body>
+</html>
