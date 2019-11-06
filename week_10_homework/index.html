@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="nav.css">
+    <title>Week 10 Homework</title>
+</head>
+
+<body>
+    <header>
+                <label for="imgToggler">
+                        <img src="http://pluspng.com/img-png/circle-png-circle-icon-1600.png" id="blackCircle" alt="black circle.">
+                </label>
+                    <input type="checkbox" id="imgToggler">
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                        </ul>
+                    </nav>
+
+        
+
+
+    </header>
+
+    <main>
+            <section>
+                    <form action=" " method="GET">
+                        <select id="make">
+                            <option value="audi">Audi</option>
+                            <option value="bmw">BMW</option>
+                            <option value="fiat">FIAT</option>
+        
+                        </select>
+        
+                        <select id="model">
+        
+                        </select>
+        
+        
+                    </form>
+        
+        
+                </section>
+
+    </main>
+    <script>
+        document.getElementById("blackCircle").width = "100";
+
+        var image2URL="data:image/png;base64,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";
+        var image2Alt="Red Circle.";
+        var switchingImage = document.getElementById("blackCircle");
+
+        var image1URL= switchingImage.src;
+        var image1Alt= switchingImage.alt;
+
+
+    document.getElementById('imgToggler').addEventListener('click',function(){
+
+        
+
+        if( switchingImage.src === image2URL ){
+            switchingImage.src = image1URL;
+            switchingImage.alt = image1Alt;
+
+        }
+        else {
+            switchingImage.src = image2URL;
+            switchingImage.alt = image2Alt;
+
+        }
+
+    })
+    </script>
+</body>
+</html>
