@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Week 11 Homework</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+            $("p").clone().appendTo("body");
+            });
+        });
+        $(document).ready(function(){
+
+//Check to see if the window is top if not then display button
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+        $('.scrollToTop').fadeIn();
+    } else {
+        $('.scrollToTop').fadeOut();
+    }
+});
+
+//Click event to scroll to top
+$('.scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+});
+
+});
+    
+    </script>
+
+</head>
+<body>
+ 
+        <p>Here</p>
+        <p>is</p>
+        <p>my</p>
+        <p>week</p>
+        <p>11</p>
+        <p>homework</p>
+        <p>i</p>
+        <p>put</p>
+        <p>all</p>
+        <p>of</p>
+        <p>these</p>
+        <p>words</p>
+        <p>here</p>
+        <p>for</p>
+        <p>the</p>
+        <p>scroll</p>
+        <p>to</p>
+        <p>top</p>
+        <p>link</p>
+        <button>CLONE</button>
+       <a href="#" class="scrollToTop">Scroll To Top</a>
+        
+ 
+ 
+</body>
+</html>
