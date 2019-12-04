@@ -1,0 +1,378 @@
+@import url(events.css);
+@import url(donate.js);
+@import url(donate.css);
+@import url(adopt.css);
+@import url(home.css);
+@import url(mission.css);
+@import url(blog.css);
+@import url(blogpages.css);
+
+.events h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: -43px;
+    position: absolute;
+    margin-left: 5px;
+    font-weight: 100;
+    color: white;
+    text-shadow: 3px 3px #ffa50166;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+}
+.events h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: -43px;
+    position: absolute;
+    margin-left: 5px;
+    font-weight: 100;
+    color: white;
+    text-shadow: 3px 3px #ffa50166;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+}
+.events p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.adopt-link{
+    display: none;
+}
+.events-link{
+    display: none;
+}
+
+header input#toggler {
+    display: none;
+} 
+header label img {
+     width: 55px;
+     height: auto;
+     padding-top: 5px;
+     padding-left: 5px;
+ }
+nav {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+}
+input#toggler:checked + nav {
+    display:block;
+    
+}
+nav ul {
+    padding-left: 0px;
+}
+nav ul li {
+    border: .5px white solid;
+    display: block;
+    list-style-type: none;
+    padding: 13px;
+}
+.active {
+    background-color: white;
+    color: orange;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: white;
+    color:orange;
+}
+.events p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-logo {
+    display: none;
+}
+.blog-link {
+    display: none;
+}
+
+@media (min-width: 935px){
+    .main-adopt h1 a{
+        text-decoration: none;
+        margin-bottom: 0px;
+        margin-top: -37px;
+        position: absolute;
+        margin-left: 8px;
+        font-weight: 100;
+        color: white;
+        text-shadow: 3px 3px #ffa50166;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        width: 70%;
+
+    }
+    .flex-main:nth-child(5){
+        margin-top:50px;
+        padding-right: 18px;
+
+        max-width: 47%;
+        background-color: none;
+    }
+    .flex-main:nth-child(6){   
+        margin-top:50px;
+        max-width: 47%;
+        background-color: none;
+    }
+    .pet-main h1{
+        margin-bottom:0px;
+    }
+    .main-adopt h2{
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 17px;
+    }
+    .flex-main:nth-child(2){
+        margin: 10px;
+        max-width: 96%;
+        background-color: none;
+    }
+    .adopt-link{
+        display: inline;
+    }
+    .adopt-link h1{
+        margin-top: 1532px;;
+        display: inline;
+        position: absolute;
+        margin-left: 33px;
+        font-weight: 100;
+        color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        
+    }
+    .events-link{
+        display: inline;
+    }
+    .events-link h1{
+        margin-top: 996px;
+        display: inline;
+        position: absolute;
+        margin-left: 29px;
+        font-weight: 100;
+        color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        
+    }
+    .blog-link{
+        display: inline;
+    }
+    .blog-link h1{
+        margin-top: 2115px;
+        display: inline;
+        position: absolute;
+        margin-left: 35px;
+        font-weight: 100;
+        color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        
+    }
+    .events-button button{
+        display: none;
+    }
+    .adopt-button button{
+        display: none;
+    }
+
+    .events p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .events h1 {
+        margin-top: -68px;
+        position: absolute;
+        margin-left: 8px;
+        font-weight: 100;
+        color: white;
+        text-shadow: 3px 3px #ffa50166;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        width: 70%;
+        
+    }
+    .events h2 {
+        margin-top: -68px;
+        position: absolute;
+        margin-left: 8px;
+        font-weight: 100;
+        color: white;
+        text-shadow: 3px 3px #ffa50166;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        width: 70%;
+        
+    }
+
+    
+    .flex-main:nth-child(3) {
+        padding-top: 69px;
+        padding-right: 18px;
+        margin: 10px;
+        max-width: 47%;
+        background-color: none;
+        
+    }
+    .flex-main:nth-child(4) {
+        padding-top: 69px;
+        margin-top: 10px;
+
+        max-width: 47%;
+        background-color: none;
+    }
+
+.main-logo {
+    margin-top: -17px;
+    float: left;
+    display: inline;
+    width: 450px;
+    margin-left: 20px;
+}
+    header::after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+    header label[for=toggler]{
+        display: none;
+    }
+
+    nav {
+        
+        background-color: none;
+        padding-top:25px;
+       display: block;
+       height: 100px;
+       text-align: right;
+   }
+   nav ul li {
+       
+       display: inline-block;
+    
+   }
+   nav li {
+       display: inline;
+   }
+   li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+nav ul {
+    margin-right: 15px;
+    padding-left: 0px;
+    margin-top: 40px;
+}
+.box {
+        background-color: transparent;
+
+        padding: 1px;
+        height: 300;
+        width: 850px;
+  
+        text-align: center;
+        position: absolute;
+        float: left;
+        margin-top: 630px;
+        margin-left: 152px;
+}
+
+.mission-statement h1 {
+  
+    margin-left: 150px;
+    font-weight: 100;
+    color: black;
+    text-shadow: 3px 3px #ffa50166;
+    line-height: 35px;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 70%;
+}
+.box p{
+    background-color: none;
+    margin-left: 150px;
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    text-shadow: 3px 3px #ffa50166;
+    line-height: 35px;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 70%;
+}
+
+.big-box {
+    margin-left: 18px;
+    padding: 20px;
+    background-color: none;
+    height: 600px;
+    margin-top: 77px;
+    border: none;
+}
+.big-box img{
+    align-items: center;
+    align-self: center;
+    
+}
+.blog-box h1{
+    margin-top: -38px;
+    position: absolute;
+    margin-left: 8px;
+    font-weight: 100;
+    color: white;
+    text-shadow: 3px 3px #ffa50166;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 70%;
+
+}
+.blog-box h1 a{
+    margin-top: -420px;
+    position: absolute;
+    margin-left: 870px;
+    font-weight: 100;
+    color: black;
+    text-shadow: 3px 3px #ffa50166;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 305px;
+ 
+
+}
+.blog-box p {
+    width: 305px;
+    margin-top: -335px;
+    position: absolute;
+    margin-left: 880px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+}

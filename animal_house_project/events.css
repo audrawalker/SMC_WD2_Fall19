@@ -1,0 +1,132 @@
+.header-events h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-event h1{
+    padding:0px;
+    text-decoration: none;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.flex-event h1 a{
+    padding:0px;
+    text-decoration: none;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.flex-event h1 a:hover{
+    color: orange;
+}
+.flex-event h2{
+    font-weight: 100;
+    margin-top: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-event p{
+    margin-right: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.flex-event img{
+    max-width: 250px;
+}
+
+
+.flex-container-event{
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    background-color: none;
+    display: flex;
+    /*
+    experiments with container
+    align-content: space-evenly;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;*/
+
+}
+.flex-event:nth-child(1){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+}
+.flex-event:nth-child(2){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+}
+.flex-event:nth-child(3){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+ 
+}
+.flex-event:nth-child(4){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+}
+.flex-event:nth-child(5){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+}
+.flex-event:nth-child(6){   
+    margin:5px;
+    max-width: 100%;
+    background-color: none;
+}
+@media (min-width: 935px){
+    .header-events h1 {
+        font-size: 40px;
+        margin-left: 2px;
+        margin-bottom:3px;
+    }
+    .flex-container-event {
+        justify-content: left;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: none;
+        display: flex;
+    }
+    .flex-event img{
+        max-width: 50%;
+    }
+    .flex-event h1 a{
+        margin-top:0px;
+        text-decoration: none;
+        margin-bottom: 0px;
+        margin-top: -53px;
+        position: absolute;
+        margin-left: 8px;
+        font-weight: 100;
+        color: white;
+        text-shadow: 3px 3px #ffa50166;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        width: 70%;
+    }
+    .flex-event h1{
+        margin-top: 0px;
+    }
+    .flex-event h2{
+        margin-top:10px;
+        margin-bottom: 3px;
+        margin-left: 2px;
+    }
+    .flex-event p{
+        margin-top:10px;
+        width:40%;
+        margin-left: 2px;
+    }
+
+
+
+}

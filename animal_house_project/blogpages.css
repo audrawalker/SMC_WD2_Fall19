@@ -1,0 +1,31 @@
+.blog-1-image img{
+    margin-top: 20px;
+}
+.blog-1-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.blog-1-text h2{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+.blog-1-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+@media (min-width: 935px){
+    .blog-1-text h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 29px;
+        margin-bottom: 0px;
+    }
+    .blog-1-text p{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        width: 70%;
+        line-height: 20px;
+    }
+}

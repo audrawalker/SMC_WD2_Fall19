@@ -1,0 +1,104 @@
+.logo {
+    margin-top: 25px;
+}
+.mission-header h1{
+    margin-top:20px;
+    color: orange;
+}
+
+.flex-mission h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: orange;
+}
+.flex-mission p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    line-height: 20px;
+}
+
+.flex-container-mission{
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    background-color: none;
+    display: flex;
+ 
+}
+.flex-mission:nth-child(1){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+}
+.flex-mission:nth-child(2){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+}
+.flex-mission:nth-child(3){
+    margin: 5px;
+    max-width: 100%;
+    background-color: none;
+ 
+}
+.flex-mission:nth-child(4){
+    margin: 5px;
+    max-width: 36%;
+    background-color: none;
+}
+.flex-mission:nth-child(5){
+    padding-left: 43px;
+    padding-top: 28px;
+    margin: 5px;
+    max-width: 44%;
+}
+.flex-mission:nth-child(6){   
+    margin:5px;
+    max-width: 100%;
+    background-color: none;
+}
+@media (min-width: 935px){
+    .logo {
+        display: none;
+    }
+    .flex-container-mission {
+        justify-content: stretch;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: none;
+        display: flex;
+    }
+    .flex-mission:nth-child(4) {
+        margin: 5px;
+        max-width: 15%;
+    }
+    .flex-mission:nth-child(5) {
+        padding-left: 43px;
+        padding-top: 28px;
+        margin: 5px;
+        max-width: 15%;
+    }
+    .history p {
+        width: 60%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+    .offer p {
+        width: 60%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+    .mission-header p {
+        width: 60%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+
+
+
+
+}
