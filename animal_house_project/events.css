@@ -40,7 +40,7 @@
 .flex-container-event{
     justify-content: center;
     flex-wrap:wrap;
-    flex-direction: column;
+    flex-direction: row;
     background-color: none;
     display: flex;
     /*
@@ -84,6 +84,22 @@
     background-color: none;
 }
 @media (min-width: 935px){
+    .flex-event:nth-child(1){
+        margin: 5px;
+        max-width: 77%;
+        background-color: none;
+    }
+    .flex-event:nth-child(2){
+        margin: 5px;
+        max-width: 77%;
+        background-color: none;
+    }
+    .flex-event:nth-child(3){
+        margin: 5px;
+        max-width: 76%;
+        background-color: none;
+     
+    }
     .header-events h1 {
         font-size: 40px;
         margin-left: 2px;

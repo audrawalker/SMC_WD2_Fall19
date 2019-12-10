@@ -83,6 +83,9 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+.flex-container-dog{
+    height: 2300px;
+}
 @media (min-width: 935px){
     .adopt h1 {
         padding-left: 10px;
@@ -91,5 +94,8 @@ img {
         margin-bottom: 3px;
     }
 
+    .flex-container-dog{
+        height: 2000px;
+    }
 }
 
