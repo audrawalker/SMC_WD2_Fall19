@@ -8,6 +8,17 @@
     <title>Animal House Project</title>
 
     <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".scroll-top").click(function() {
+        $("html, body").animate({ 
+            scrollTop: 0 
+        }, "slow");
+        return false;
+    });
+});
+</script>
 </head>
 
 <body>
@@ -18,7 +29,7 @@
         <input type="checkbox" id="toggler">
         <nav>
                 <div class="main-logo">
-                        <img src="images/whitelogo.png">
+                        <img src="images/whitelogolayered.png">
                     </div>
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -75,7 +86,7 @@
     </div>
    
 
-
+    <button type="button" class="scroll-top">Go to Top</button>
 </body>
 
 </html>

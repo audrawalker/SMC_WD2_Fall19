@@ -18,10 +18,10 @@
     color: black;
 }
 .flex-blog h1 a:hover{
-    color: orange;
+    color: #5D91B2;
 }
 .flex-blog h2{
-    color: orange;
+    color: #5D91B2;
     font-weight: 100;
     margin-top: 0px;
     font-size: 15px;
