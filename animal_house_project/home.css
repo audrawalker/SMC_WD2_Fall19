@@ -608,7 +608,7 @@ img {
     .item-8 {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 23;
+        grid-row-start: 24;
         grid-row-end: 28;
     }
     .item-8 img{
@@ -617,7 +617,7 @@ img {
     .item-9 {
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 23;
+        grid-row-start: 24;
         grid-row-end: 28;
     }
     .item-9 h1 a{
@@ -658,14 +658,14 @@ img {
     .item-10 {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 27;
-        grid-row-end: 31;
+        grid-row-start: 29;
+        grid-row-end: 33;
     }
     .item-11 {
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 27;
-        grid-row-end: 31;
+        grid-row-start: 29;
+        grid-row-end: 33;
     }
     
     .footer{
