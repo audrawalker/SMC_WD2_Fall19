@@ -1,6 +1,11 @@
 .logo {
     margin-top: 25px;
 }
+.grid-adopt .caption {
+    line-height: 23px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .adopted-pets-grid {
     line-height: 23px;
     font-size: 17px;
@@ -73,6 +78,17 @@ h4 {
     .logo {
         display: none;
     }
+    .grid-adopt {
+        height: 550px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .caption {
+        display: none;
+    }
+
+ /*
     .adopted-pets-grid {
             padding: 15px;
             display: grid;
@@ -103,7 +119,7 @@ h4 {
         grid-row-start: 1;
         grid-row-end: 2;
     }
-
+*/
     .flex-container-mission {
         justify-content: stretch;
         flex-wrap: wrap;

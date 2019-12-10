@@ -1,13 +1,12 @@
 $(document).ready(function () {
-// CLICK, CAPTION DROPS
-	$(".drop-down")
-		.click(function () {
-		$(this).children(".caption").slideToggle("slow");
-	});
+	$(".drop")
+        .click(function () {
+            $(this).children(".caption").slideToggle("slow");
+        });
 
 
 
-var firstName = "";
+		var firstName = "";
 		var lastName = "";
 		var email = "";
 		var dType = "";
@@ -18,15 +17,6 @@ var firstName = "";
 		
 		$('.set-amount').autoGrow(0);
 		
-		/*
-			if(isiPad || jQuery.browser.mobile){
-				$('#team').hide()
-				$('.team-mobile').show();	
-			}else{
-				$('#team').show()
-				$('.team-mobile').hide();
-			}
-		*/
 		
 		//Set & Highlight Donation Amount
 		$(".button").click(function(){

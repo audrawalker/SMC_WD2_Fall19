@@ -288,7 +288,7 @@ img {
 }
 .flex-footer{
     justify-content: center;
-    flex-direction: colurowmn;
+    flex-direction: row;
     display: flex;
 
 
