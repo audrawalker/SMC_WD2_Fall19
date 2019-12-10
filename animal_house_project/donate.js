@@ -1,3 +1,20 @@
+$(document).ready(function(){
+    $(".caption").hide();
+    $(".drop-down").click(function(){
+        $(".caption").slideToggle("fast");
+
+    });
+
+});
+
+// CLICK, CAPTION DROPS
+$(".drop-down")
+.click(function () {
+	$(this).children(".caption").slideToggle("slow");
+});
+
+
+
 var firstName = "";
 		var lastName = "";
 		var email = "";
@@ -26,6 +43,7 @@ var firstName = "";
 			
 			$(this).find("input").focus();
 		});
+	
 		
 		//Grow the donation box if they type more than 4 numbers
 		$(".set-amount").keyup(function(){
@@ -35,8 +53,7 @@ var firstName = "";
 		    }
 
 		});
-		
-		
+				
 		$("input").on("change", function(){
 			// $(".donation-box").css("height", "500px");
 			
@@ -52,3 +69,4 @@ var firstName = "";
 			}
 
 		});
+
