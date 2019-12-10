@@ -1,17 +1,9 @@
-$(document).ready(function(){
-    $(".caption").hide();
-    $(".drop-down").click(function(){
-        $(".caption").slideToggle("fast");
-
-    });
-
-});
-
+$(document).ready(function () {
 // CLICK, CAPTION DROPS
-$(".drop-down")
-.click(function () {
-	$(this).children(".caption").slideToggle("slow");
-});
+	$(".drop-down")
+		.click(function () {
+		$(this).children(".caption").slideToggle("slow");
+	});
 
 
 
@@ -69,4 +61,4 @@ var firstName = "";
 			}
 
 		});
-
+});
