@@ -508,13 +508,13 @@ img {
     .item-6 {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 16;
+        grid-row-start: 17;
         grid-row-end: 23;
     }
     .item-7 {
         grid-column-start: 3;
         grid-column-end: 5;
-        grid-row-start: 16;
+        grid-row-start: 17;
         grid-row-end: 23;
     }
     .item-5 {
