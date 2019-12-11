@@ -98,6 +98,8 @@
 	right: 15px;
 }
 .donate-button button{
+	color: white;
+	background-color: #5D91B2;
 	border: none;
 	font-size: 20px;
 }
